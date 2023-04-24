@@ -1,0 +1,17 @@
+body {
+    background-image: url("imagenes-tp/fondorecetas.jpg");
+}
+
+ol {
+    border: solid pink;
+    background-color: rgb(254, 224, 229);
+    width: 600px;
+
+}
+
+p {
+    border: solid lightskyblue;
+    background-color: rgb(207, 232, 247);
+    width: 1000px;
+
+}

@@ -1,0 +1,143 @@
+header {
+    display: block;
+    background-color: rgb(187, 246, 187);
+    background-image: url("imagenes-tp/pasteleria.avif");
+    background-size: contain;
+    color: rgb(247, 250, 252);
+}
+
+header a {
+    background-color: rgb(238, 140, 235);
+    border: solid black;
+
+
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    border: black;
+    background-color: rgb(163, 194, 240);
+    width: 500px;
+    text-align: center;
+
+}
+
+body {
+    display: flex;
+    background-image: url("imagenes-tp/fondo.jpg");
+
+}
+
+footer {
+    background-color: rgb(213, 249, 213);
+}
+
+
+
+img {
+    border: solid rgb(237, 80, 190);
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 10px;
+    column-gap: 20px;
+}
+
+.contenedor-footer {
+    display: flex;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    column-gap: 20px;
+}
+
+
+
+.der-top {
+    display: flex;
+    border: solid pink;
+    background-color: rgb(247, 204, 236);
+    margin: 20px;
+    text-align: center;
+}
+
+.der-bttm {
+    display: flex;
+    overflow: scroll;
+    background-color: rgb(247, 204, 236);
+    border: solid pink;
+    margin: 20px;
+
+}
+
+
+.derecha h1 {
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+.carrusel {
+    flex: 1;
+
+}
+
+.carrusel img {
+    margin: 10px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.izquierda {
+    overflow: scroll;
+    margin: 20px;
+    background-color: rgb(212, 231, 248);
+    border: solid rgb(155, 213, 248);
+    text-align: center;
+}
+
+.izquierda img {
+    width: 150px;
+    height: 150px;
+    border: solid rgb(178, 178, 244);
+}
+
+@media (max-width: 1020px) {
+    .contenedor {
+        display: inline-block;
+    }
+
+    .izquierda {
+        width: 800px;
+    }
+
+    .derecha {
+        width: 800px;
+    }
+
+
+}
+
+@media (max-width: 720px) {
+    .contenedor {
+        display: inline-block;
+    }
+
+    .izquierda {
+        width: 600px;
+    }
+
+    .derecha {
+        width: 600px;
+    }
+}
