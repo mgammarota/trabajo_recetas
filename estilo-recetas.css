@@ -18,7 +18,7 @@ header h1 {
     font-size: xx-large;
     border: black;
     background-color: rgb(163, 194, 240);
-    width: 500px;
+    width: 600px;
     text-align: center;
 
     }
@@ -28,6 +28,8 @@ body {
 }
 
 ol {
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
     border: solid pink;
     background-color: rgb(254, 224, 229);
     width: 600px;
@@ -35,9 +37,12 @@ ol {
 }
 
 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
     border: solid lightskyblue;
     background-color: rgb(207, 232, 247);
-    width: 1000px;
+    width: 600px;
+    text-align: justify;
 
 }
 
@@ -81,6 +86,28 @@ nav{
     display:none;
 }
 }
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    border: solid lightcoral ;
+    background-color: rgb(163, 194, 240);
+    width: 500px;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    border: solid lightcoral ;
+    background-color: rgb(163, 194, 240);
+    width: 500px;
+    text-align: left;
+
+}
+
+
 
 footer {
     background-color: rgb(213, 249, 213);
