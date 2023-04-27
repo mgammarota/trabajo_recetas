@@ -54,7 +54,7 @@ h1 {
 
 .contenedor-footer {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 65%;
     gap: 10px;
     column-gap: 20px;
 }
@@ -64,9 +64,14 @@ h1 {
     grid-template-rows: 50% 50%;
 }
 
+.pie h1 {
+    text-align: center;
+}
+
 .simbolos {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
 }
 
 .der-top {
