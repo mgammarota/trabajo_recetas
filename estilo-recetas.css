@@ -21,7 +21,11 @@ header h1 {
     width: 600px;
     text-align: center;
 
+<<<<<<< HEAD
 }
+=======
+    }
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
 
 body {
     background-image: url("imagenes-tp/fondorecetas.jpg");
@@ -46,13 +50,18 @@ p {
 
 }
 
+<<<<<<< HEAD
 .nav-enlace {
+=======
+.nav-enlace{
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
     display: inline-block;
     margin: 0px 3px;
     background: salmon;
     color: #fff;
     padding: 10px 30px;
     text-decoration: none;
+<<<<<<< HEAD
 
 }
 
@@ -67,12 +76,26 @@ nav {
 }
 
 .nav-button {
+=======
+    
+}
+nav {
+    background: pink;
+    padding: 10px;
+    display: flex; 
+}
+.nav-enlace:hover {
+    background: rosybrown
+}
+.nav-button{
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
     background: salmon;
     color: #fff;
     padding: 10px 0;
     border: 2px solid #fff;
     display: none
 }
+<<<<<<< HEAD
 
 @media (max-width: 600px) {
 
@@ -92,12 +115,33 @@ nav {
     .dissapear {
         display: none;
     }
+=======
+@media (max-width: 600px) {
+
+nav{
+    background:rgb(244, 161, 152);
+    flex-direction: column;
+}
+.nav-enlace{
+    margin: 10px 0px;
+}
+.nav-button{
+    display: inline-block;
+}
+.dissapear{
+    display:none;
+}
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
+<<<<<<< HEAD
     border: solid lightcoral;
+=======
+    border: solid lightcoral ;
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: left;
@@ -107,7 +151,11 @@ h1 {
 h3 {
     font-family: 'Dancing Script', cursive;
     font-size: large;
+<<<<<<< HEAD
     border: solid lightcoral;
+=======
+    border: solid lightcoral ;
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: left;
@@ -119,6 +167,7 @@ h3 {
 footer {
     background-color: rgb(213, 249, 213);
 }
+<<<<<<< HEAD
 
 .contenedor-footer {
     display: flex;
@@ -126,3 +175,5 @@ footer {
     gap: 10px;
     column-gap: 20px;
 }
+=======
+>>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
