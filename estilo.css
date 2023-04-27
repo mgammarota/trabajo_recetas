@@ -31,7 +31,6 @@ body {
 
 footer {
     background-color: rgb(213, 249, 213);
-    height: 150px;
 }
 
 
@@ -42,10 +41,8 @@ img {
 }
 
 h1 {
-    margin-left: 20px;
-    font-size: large;
-    font-weight: bolder;
     font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
 }
 
 .contenedor {
@@ -57,9 +54,9 @@ h1 {
 
 .contenedor-footer {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
     gap: 10px;
-    column-gap: 100px;
+    column-gap: 20px;
 }
 
 .pie {
@@ -70,13 +67,6 @@ h1 {
 .simbolos {
     display: grid;
     grid-template-columns: 15% 15% 15% 15%;
-
-
-}
-
-footer h1 {
-    text-decoration-line: underline;
-    text-align: justify;
 }
 
 .der-top {
@@ -131,7 +121,6 @@ footer h1 {
     border: solid rgb(178, 178, 244);
 }
 
-
 @media (max-width: 1020px) {
     .contenedor {
         display: inline-block;
@@ -162,18 +151,13 @@ footer h1 {
     }
 }
 
-<<<<<<< HEAD
 .nav-enlace {
-=======
-.nav-enlace{
->>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
     display: inline-block;
     margin: 0px 3px;
     background: salmon;
     color: #fff;
     padding: 10px 30px;
     text-decoration: none;
-<<<<<<< HEAD
 
 }
 
@@ -188,26 +172,12 @@ nav {
 }
 
 .nav-button {
-=======
-    
-}
-nav {
-    background: pink;
-    padding: 10px;
-    display: flex; 
-}
-.nav-enlace:hover {
-    background: rosybrown
-}
-.nav-button{
->>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
     background: salmon;
     color: #fff;
     padding: 10px 0;
     border: 2px solid #fff;
     display: none
 }
-<<<<<<< HEAD
 
 @media (max-width: 600px) {
 
@@ -228,23 +198,3 @@ nav {
         display: none;
     }
 }
-=======
-@media (max-width: 600px) {
-
-nav{
-    background:rgb(244, 161, 152);
-    flex-direction: column;
-}
-.nav-enlace{
-    margin: 10px 0px;
-}
-.nav-button{
-    display: inline-block;
-}
-.dissapear{
-    display:none;
-}
-}
-
-
->>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
