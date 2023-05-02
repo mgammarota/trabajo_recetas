@@ -8,7 +8,7 @@ header {
 
 header a {
     background-color: rgb(238, 140, 235);
-    border: solid black;
+    
 
 
 }
@@ -30,7 +30,7 @@ body {
 ol {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
-    border: solid pink;
+    border: groove pink;
     background-color: rgb(254, 224, 229);
     width: 600px;
 
@@ -39,11 +39,17 @@ ol {
 p {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
-    border: solid lightskyblue;
+    border: groove lightskyblue;
     background-color: rgb(207, 232, 247);
     width: 600px;
     text-align: justify;
+    padding: 20px 30px;  
 
+}
+
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
 }
 
 .nav-enlace {
@@ -97,7 +103,7 @@ nav {
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
-    border: solid lightcoral;
+    border: groove lightcoral;
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: left;
@@ -107,10 +113,11 @@ h1 {
 h3 {
     font-family: 'Dancing Script', cursive;
     font-size: large;
-    border: solid lightcoral;
+    border: ridge rgb(189, 213, 236);
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: left;
+    color: rgb(76, 21, 129);
 
 }
 

@@ -8,7 +8,7 @@ header {
 
 header a {
     background-color: rgb(238, 140, 235);
-    border: solid black;
+    
 
 
 }
@@ -31,6 +31,14 @@ body {
 
 footer {
     background-color: rgb(213, 249, 213);
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
+   
+    background-color: rgb(207, 232, 247);
+    width: 600px;  
 }
 
 
