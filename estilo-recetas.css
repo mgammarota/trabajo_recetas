@@ -8,7 +8,7 @@ header {
 
 header a {
     background-color: rgb(238, 140, 235);
-    
+
 
 
 }
@@ -43,11 +43,11 @@ p {
     background-color: rgb(207, 232, 247);
     width: 600px;
     text-align: justify;
-    padding: 20px 30px;  
+    padding: 20px 30px;
 
 }
 
-h4{
+h4 {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
 }
@@ -125,4 +125,27 @@ h3 {
 
 footer {
     background-color: rgb(213, 249, 213);
+}
+
+
+.contenedor-footer {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 10px;
+    column-gap: 20px;
+}
+
+.pie {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.pie h1 {
+    text-align: center;
+}
+
+.simbolos {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    text-align: center;
 }

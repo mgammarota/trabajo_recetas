@@ -8,7 +8,7 @@ header {
 
 header a {
     background-color: rgb(238, 140, 235);
-    
+
 
 
 }
@@ -36,9 +36,9 @@ footer {
 h4 {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
-   
+
     background-color: rgb(207, 232, 247);
-    width: 600px;  
+    width: 600px;
 }
 
 
@@ -78,7 +78,7 @@ h1 {
 
 .simbolos {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 15% 15% 15% 15%;
     text-align: center;
 }
 
