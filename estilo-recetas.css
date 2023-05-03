@@ -32,7 +32,7 @@ ol {
     font-size: medium;
     border: groove pink;
     background-color: rgb(254, 224, 229);
-    width: 600px;
+    width: 620px;
 
 }
 
@@ -47,10 +47,7 @@ p {
 
 }
 
-h4 {
-    font-family: 'Dancing Script', cursive;
-    font-size: medium;
-}
+
 
 .nav-enlace {
     display: inline-block;
@@ -80,6 +77,28 @@ nav {
     display: none
 }
 
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    border: groove lightcoral;
+    background-color: rgb(163, 194, 240);
+    width: 660px;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    border: ridge rgb(189, 213, 236);
+    background-color: rgb(163, 194, 240);
+    width: 660px;
+    text-align: left;
+    color: rgb(76, 21, 129);
+
+}
+
+
 @media (max-width: 600px) {
 
     nav {
@@ -100,26 +119,6 @@ nav {
     }
 }
 
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: xx-large;
-    border: groove lightcoral;
-    background-color: rgb(163, 194, 240);
-    width: 500px;
-    text-align: left;
-
-}
-
-h3 {
-    font-family: 'Dancing Script', cursive;
-    font-size: large;
-    border: ridge rgb(189, 213, 236);
-    background-color: rgb(163, 194, 240);
-    width: 500px;
-    text-align: left;
-    color: rgb(76, 21, 129);
-
-}
 
 
 
