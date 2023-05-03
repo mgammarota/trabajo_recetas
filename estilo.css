@@ -20,6 +20,20 @@ header h1 {
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from {
+        background-color: aqua;
+    }
+
+    to {
+        background-color: blueviolet;
+    }
 
 }
 
