@@ -20,6 +20,20 @@ header h1 {
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from {
+        background-color: aqua;
+    }
+
+    to {
+        background-color: blueviolet;
+    }
 
 }
 
@@ -69,11 +83,21 @@ h1 {
 
 .pie {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 40%;
 }
 
 .pie h1 {
     text-align: center;
+}
+
+.comentarios {
+    display: grid;
+    grid-template-rows: 30% 20% 30%;
+}
+
+.datos-contacto {
+    display: flex;
+
 }
 
 .simbolos {

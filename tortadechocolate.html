@@ -14,13 +14,13 @@
 <body>
 
     <nav>
-                <button class="nav-button" onclick="action()">Menú</button>
-                <a href="main.html" class="nav-enlace dissapear">Inicio</a>
-                <a href="recetas.html" class="nav-enlace dissapear">Listado de Recetas</a>
-                <a href="nosotros.html" class="nav-enlace dissapear">Nosotros</a>
-            </nav>
-            <button onclick="window.location.href='recetas.html'">Volver</button>
-            <h1>Torta de Chocolate</h1>
+        <button class="nav-button" onclick="action()">Menú</button>
+        <a href="main.html" class="nav-enlace dissapear">Inicio</a>
+        <a href="recetas.html" class="nav-enlace dissapear">Listado de Recetas</a>
+        <a href="nosotros.html" class="nav-enlace dissapear">Nosotros</a>
+    </nav>
+    <button onclick="window.location.href='recetas.html'">Volver</button>
+    <h1>Torta de Chocolate</h1>
 
     <img src="imagenes-tp/torta.jpg" alt="torta de chocolate" width="300px" height="300px">
     <h3>Para el bizcochuelo</h3>
@@ -51,15 +51,31 @@
                 <div class="contenedor-footer">
                     <div class="pie">
                         <h4>Encontranos en nuestras redes sociales</h4>
-                        <a href="https://twitter.com" target="blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://instagram.com" target="blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://pinterest.com" target="blank"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://instagram.com" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://pinterest.com" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </div>
             <div class="comentarios">
-                <p>Dejanos tu Comentario</p>
-                <input type="text" width="200" height="150">
-                <button>Enviar</button>
+                <div class="titulo">
+                    <h4>Dejanos tu comentario</h4>
+                </div>                
+                <div class="datos-contacto">
+                    <div class="nombre">
+                        <label for="nombre">nombre</label>
+                        <input type="text">
+                    </div>
+                    <div class="email">
+                        <label for="email">email</label>
+                        <input type="email">
+                    </div>
+
+                </div>
+                <div class="cuadro-mensaje">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                    <button>enviar</button>
+                </div>
+
             </div>
         </div>
 
