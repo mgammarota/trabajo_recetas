@@ -69,11 +69,21 @@ h1 {
 
 .pie {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 40%;
 }
 
 .pie h1 {
     text-align: center;
+}
+
+.comentarios {
+    display: grid;
+    grid-template-rows: 30% 20% 30%;
+}
+
+.datos-contacto {
+    display: flex;
+
 }
 
 .simbolos {
