@@ -154,17 +154,21 @@ h1 {
 }
 
 .izquierda {
+    display: block;
     overflow: scroll;
     margin: 20px;
     background-color: rgb(212, 231, 248);
     border: solid rgb(155, 213, 248);
     text-align: center;
+    width: 400px;
+    height: 420px;
 }
 
 .izquierda img {
     width: 150px;
     height: 150px;
     border: solid rgb(178, 178, 244);
+    background-color: #fff;
 }
 
 @media (max-width: 1020px) {
