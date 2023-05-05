@@ -85,25 +85,30 @@
                     <a href="https://pinterest.com" target="blank"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
                 </div>
             </div>
-            <div class="comentarios">
-                <div class="titulo">
-                    <h4>Dejanos tu comentario</h4>
-                </div>                
-                <div class="datos-contacto">
-                    <div class="nombre">
-                        <label for="nombre">nombre</label>
-                        <input type="text">
-                    </div>
-                    <div class="email">
-                        <label for="email">email</label>
-                        <input type="email">
-                    </div>
 
-                </div>
-                <div class="cuadro-mensaje">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
-                    <button>enviar</button>
-                </div>
+            <div class="comentarios"> 
+                <form action="https://formsubmit.co/mgammarota@hotmail.com" method="post">              
+                    <div class="titulo">                    
+                        <h4>Dejanos tu comentario</h4>
+                    </div>                
+                    <div class="datos-contacto">
+                        <div class="nombre">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="mail">
+                            <label for="mail">email</label>
+                            <input type="email" name="email">
+                        </div>
+
+                    </div>
+                    <div class="cuadro-mensaje">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                        <button type="submit">Enviar</button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucomentario.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </form>
 
             </div>
         </div>
