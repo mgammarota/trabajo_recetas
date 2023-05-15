@@ -101,6 +101,7 @@ h1 {
     background-color: rgb(247, 204, 236);
     margin: 20px;
     text-align: center;
+
 }
 
 .der-bttm {
@@ -112,6 +113,7 @@ h1 {
     animation-name: animacion;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+
 }
 
 @keyframes animacion {
@@ -148,8 +150,8 @@ h1 {
 .carrusel img {
     margin: 10px;
     margin-top: 50px;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
 
 }
 

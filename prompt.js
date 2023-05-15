@@ -30,7 +30,3 @@ const punto = document.querySelectorAll('.punto')
 
 })
     })
-<<<<<<< HEAD
-
-=======
->>>>>>> 6c95e80e7a09f40da3a1cf05227f6aa226a2e9f9
