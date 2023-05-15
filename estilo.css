@@ -9,8 +9,6 @@ header {
 header a {
     background-color: rgb(238, 140, 235);
 
-
-
 }
 
 header h1 {
@@ -20,7 +18,6 @@ header h1 {
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: center;
-
 
 }
 
@@ -53,7 +50,7 @@ img {
 
 h1 {
     font-family: 'Dancing Script', cursive;
-    text-decoration: underline;
+   
 }
 
 .contenedor {
