@@ -20,22 +20,11 @@ header h1 {
     background-color: rgb(163, 194, 240);
     width: 500px;
     text-align: center;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+
 
 }
 
-@keyframes example {
-    from {
-        background-color: aqua;
-    }
 
-    to {
-        background-color: blueviolet;
-    }
-
-}
 
 body {
     display: flex;
@@ -120,9 +109,29 @@ h1 {
     background-color: rgb(247, 204, 236);
     border: solid pink;
     margin: 20px;
-
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes animacion {
+    0% {
+        background-color: rgb(250, 214, 114);
+    }
+
+    25% {
+        background-color: rgb(245, 127, 209);
+    }
+
+    50% {
+        background-color: rgb(145, 220, 237);
+    }
+
+    100% {
+        background-color: rgb(174, 226, 174);
+    }
+
+}
 
 .derecha h1 {
     margin-left: 20px;
@@ -145,17 +154,21 @@ h1 {
 }
 
 .izquierda {
+    display: block;
     overflow: scroll;
     margin: 20px;
     background-color: rgb(212, 231, 248);
     border: solid rgb(155, 213, 248);
     text-align: center;
+    width: 400px;
+    height: 420px;
 }
 
 .izquierda img {
     width: 150px;
     height: 150px;
     border: solid rgb(178, 178, 244);
+    background-color: #fff;
 }
 
 @media (max-width: 1020px) {
