@@ -48,33 +48,42 @@
     <button onclick="window.location.href='recetas.html'">Volver</button>
     
     <footer>
-                <div class="contenedor-footer">
-                    <div class="pie">
-                        <h4>Encontranos en nuestras redes sociales</h4>
-                        <a href="https://twitter.com" target="blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://instagram.com" target="blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://pinterest.com" target="blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                    </div>
-            <div class="comentarios">
-                <div class="titulo">
-                    <h4>Dejanos tu comentario</h4>
-                </div>                
-                <div class="datos-contacto">
-                    <div class="nombre">
-                        <label for="nombre">nombre</label>
-                        <input type="text">
-                    </div>
-                    <div class="email">
-                        <label for="email">email</label>
-                        <input type="email">
-                    </div>
+        <div class="contenedor-footer">
+            <div class="pie">
+                <div >
+                    <h4>Encontranos en nuestras redes sociales</h4>
+                </div>
+                <div class="simbolos">
+                    <a href="https://twitter.com" target="blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://pinterest.com" target="blank"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
 
-                </div>
-                <div class="cuadro-mensaje">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
-                    <button>enviar</button>
-                </div>
+            <div class="comentarios"> 
+                <form action="https://formsubmit.co/misrecetas23002@hotmail.com" method="post" id="form">              
+                    <div class="titulo">                    
+                        <h4>Dejanos tu comentario</h4>
+                    </div>                
+                    <div class="datos-contacto">
+                        <div class="nombre">
+                            <label for="nombre">Nombre</label>
+                            <input required type="text" name="name" >
+                        </div>
+                        <div class="mail">
+                            <label for="email">email</label>
+                            <input required type="email" name="email" >
+                        </div>
+
+                    </div>
+                    <div class="cuadro-mensaje">
+                        <textarea name="mensaje" required type="text" cols="30" rows="5"></textarea>
+                        <button type="submit">Enviar</button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucomentario.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                </form>
 
             </div>
         </div>
