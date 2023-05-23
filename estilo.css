@@ -218,28 +218,6 @@ h1 {
     }
 }
 
-@media (max-width: 520px) {
-    .contenedor {
-        display: inline-block;
-    }
-
-    .contenedor-footer {
-        display: inline-block;
-    }
-
-    .contenedor-header {
-        display: inline-block;
-    }
-
-
-    .izquierda {
-        width: 300px;
-    }
-
-    .derecha {
-        width: 300px;
-    }
-}
 
 .nav-enlace {
     display: inline-block;
@@ -270,6 +248,26 @@ nav {
 }
 
 @media (max-width: 600px) {
+    .contenedor {
+        display: inline-block;
+    }
+
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
+
+    .izquierda {
+        width: 300px;
+    }
+
+    .derecha {
+        width: 300px;
+    }
 
     nav {
         background: rgb(244, 161, 152);
