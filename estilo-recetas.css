@@ -108,6 +108,26 @@ h4 {
 
 
 @media (max-width: 600px) {
+    .contenedor {
+        display: inline-block;
+    }
+
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
+
+    .izquierda {
+        width: 300px;
+    }
+
+    .derecha {
+        width: 300px;
+    }
 
     nav {
         background: rgb(244, 161, 152);
@@ -127,7 +147,52 @@ h4 {
     }
 }
 
+@media (max-width: 1020px) {
+    .contenedor {
+        display: inline-block;
+    }
 
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
+    .izquierda {
+        width: 800px;
+    }
+
+    .derecha {
+        width: 800px;
+    }
+
+
+}
+
+@media (max-width: 720px) {
+    .contenedor {
+        display: inline-block;
+    }
+
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
+
+    .izquierda {
+        width: 600px;
+    }
+
+    .derecha {
+        width: 600px;
+    }
+}
 
 
 footer {
