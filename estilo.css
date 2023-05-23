@@ -218,7 +218,7 @@ h1 {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
     .contenedor {
         display: inline-block;
     }
