@@ -52,8 +52,4 @@ calidad y optimizada para web; paleta de colores seleccionada acorde a la temát
 logo utilizado en el sitio web; íconos utilizados y favicon.
 NR\*\* Creo que tenemos que darle una revisada general a look and feel del sitio y ver si hay que determinar margins y padding para que quede prolijo y creo que hay que revisar tambien los colores de los border line
 
-email de contacto:
-email: misrecetas23002@hotmail.com
-pasword: recetas23002
-
 FIN
