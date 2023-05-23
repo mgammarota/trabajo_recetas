@@ -176,6 +176,14 @@ h1 {
         display: inline-block;
     }
 
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
     .izquierda {
         width: 800px;
     }
@@ -192,12 +200,44 @@ h1 {
         display: inline-block;
     }
 
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
+
     .izquierda {
         width: 600px;
     }
 
     .derecha {
         width: 600px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contenedor {
+        display: inline-block;
+    }
+
+    .contenedor-footer {
+        display: inline-block;
+    }
+
+    .contenedor-header {
+        display: inline-block;
+    }
+
+
+    .izquierda {
+        width: 300px;
+    }
+
+    .derecha {
+        width: 300px;
     }
 }
 
